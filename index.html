@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--
+        STUDENT GRADE CALCULATOR
+        1.Student has to enter their respective marks.
+        2.Find Total
+        3.Find Percentage
+        4.Check Pass or Fail
+        5.Combine all and show Output
+    -->
+    
+    <div class="background">
+
+    <div class="screen-body-item left">
+    <div class="app-title">
+    <div class="animated infinite pulse">
+        <h1>STUDENT GRADE CALCULATOR</h1>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="screen-body-item">
+        <div class="app-form">
+            <h4>ENTER YOUR MARKS</h4>
+            <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="Web programming" id="web">
+            </div><br>
+            <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="Java" id="java">
+            </div><br>
+            <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="Dbms" id="dbms">
+            </div><br>
+            <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="Maths" id="maths">
+            </div>
+            <br><br>
+            <div>
+                <input type="button" name="percentagecal" value="Show Result" class="app-form-button" onclick="calculate()">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="app-form-group showdata">
+        <p id="showData" >  </p>
+    </div>
+    
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

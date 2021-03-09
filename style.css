@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+.background {
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+  min-height: 50vh;
+  width: 50%;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
